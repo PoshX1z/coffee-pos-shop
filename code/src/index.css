@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@custom-variant hover (&:hover);
+@custom-variant group-hover (.group:hover &);
+@theme {
+  --font-sans: "Noto Sans Thai", ui-sans-serif, system-ui, sans-serif;
+}
